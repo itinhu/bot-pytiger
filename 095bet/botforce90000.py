@@ -85,7 +85,7 @@ try:
     username_field = driver.find_element(By.XPATH, "//input[@placeholder='Nome de Usuário']")
     password_field = driver.find_element(By.XPATH, "//input[@placeholder='Senha']")
     """ Campos para colocar Login e senha. """
-    username_field.send_keys("bbb2024005")
+    username_field.send_keys("pedrojr005")
     password_field.send_keys("qaz123")
 
     entrar_button = driver.find_element(By.XPATH, "//button[@class='ant-btn ant-btn-primary ant-btn-block kKDcOuN8rOwl8zAHU1CF']")
